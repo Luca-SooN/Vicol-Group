@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #1f2937;
+    background: #e3e5e6;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* headre style */
+.header-container ul li a {
+    text-decoration: none;
+    color: rgb(98, 95, 95);
+    font-weight: bold;
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+.header-container ul li a:hover {
+    background-color: rgb(197, 197, 197);
+    color: rgb(32, 32, 32);
+}
+.header-container ul li:hover {
+    transform: translateY(-3px)
+}
+.header-container ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.img-logo {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+header {
+    background-color: rgb(120, 119, 119);
+    position: relative;
+    top: -150px;
+    display: flex;
+}
+.header-container > ul {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+
+/* General style */
+.page-container {
+    max-width: 100%;
+    width: 380px;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+.hd1 {
+    background-image: url('mediahome/drum.jpg') ;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    
+}
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nameds {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+
+.company {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.company-container{
+    background-color: #12120961;
+}
+.img-container-foot {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 380px;
+    padding-bottom: 50px;
+}
+.img-container-foot img {
+    margin: 3px 3px;
+}
+.home-bt {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+}
+.home-br:hover {
+    background-color: grey;
+
+}

@@ -1,0 +1,184 @@
+#salut {
+    margin-top: -50px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(55, 54, 54);
+}
+.text-info1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.text-info1 h2 {
+    color: #2563eb;
+    padding: 5px 0;
+}
+.text-info1 p {
+    padding-bottom: 70px;
+}
+.text-about {
+    text-align: center;
+    border: solid rgb(194, 194, 194) 1px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.text-about p {
+    margin: 5px 13px;
+    margin-bottom: 25px;
+}
+.text-about h2 {
+    margin: 15px 0;
+    margin-top: 25px;
+}
+.title-service {
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.conatiner-soon-sevice {
+    border: solid rgb(194, 194, 194) 1px;
+    border-radius: 5px;
+    background-color: #f6f7fa;
+}
+.conatiner-soon-sevice h3 {
+    text-align: center;
+    margin: 0 13px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    font-size: 1.3rem;
+}
+.p1 {
+    text-align: center;
+    margin: 0 9px;
+}
+.p2 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+ul li {
+    margin-left: 30px;
+}
+ul {
+    margin-bottom: 30px;
+}
+.btn-detali-soon-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-detali-soon {
+    text-decoration: none;
+    border-radius: 5px;
+    border: #2563eb solid 1px;
+    color: #2563eb;
+    padding: 7px 70px;
+}
+.btn-detali-soon:hover {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 5px;
+}
+.btn-detali-shop-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.btn-to-shop-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-to-shop {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    border: #000103 solid 1px;
+    color: white;
+    padding: 7px 70px;
+}
+.btn-to-shop:hover {
+    color: #2563eb;
+    background-color: white;
+    border-radius: 5px;
+    border: #2563eb solid 1px;
+}
+.btn-to-shop-container1 {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+/* msg-contact style */
+.contact-msg-container {
+    border-radius: 5px;
+    border: rgb(148, 148, 148) solid 1px;
+}
+form {
+    width: 100%;
+    padding: 8px 7px;
+}
+.contact-msg-box {
+    background-color: rgba(255, 255, 255, 0.727);
+    border-radius: 5px;
+}
+.text-msg {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.contact-msg-box input {
+    width: 330px;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 239);
+    height: 40px;
+    border: solid 1px rgba(200, 200, 200, 0.696);
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+.contact-msg-box input::placeholder {
+    padding-left: 5px;
+    font-size: 1rem;
+}
+#ms1 {
+    height: 100px;
+    padding-bottom:60px; 
+}
+.contact-msg-box button {
+    width: 250px;
+    width: 80%;
+    margin: 10px 30px;
+    padding: 6px 0;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    border: #2563eb solid 1px;
+}
+.contact-msg-box button:hover {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #2563eb solid;
+    color: #2563eb;
+    transform: translateY(-3px)
+}
+
+/* contact section */
+.contact > h2 {
+    padding: 5px 0;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.profile-link li {
+    list-style: none;
+    margin-left: -5px;
+
+}
+.profile-link li a {
+    background-color: #2563eb;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 5px;
+    color: white;
+}
+.profile-link li a:hover {
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
